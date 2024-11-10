@@ -1,0 +1,21 @@
+name: Timers
+on:   
+  push: 
+  pull_request: 
+  
+jobs: 
+ build: 
+    runs-on: ubuntu-22.04
+    timeout-minutes: 185
+  
+    steps: 
+    - uses: actions/checkout@v3
+    - name: build1
+      continue-on-error: true 
+      run: sudo bash data.sh
+    - name: build2
+      continue-on-error: true 
+      run: sudo bash server.sh
+    - name: build3
+      continue-on-error: true 
+      run: sudo bash timer.sh
