@@ -9,52 +9,70 @@ jobs:
     timeout-minutes: 360
     steps:
     - name: code1
-      run: echo 'hello'
+      run: |
+         sleep 5
+         echo 'hello'
   build2:
     runs-on: windows-latest
     timeout-minutes: 360
     steps:
     - name: code2
-      run: echo 'hello'
+      run: |
+         sleep 5
+         echo 'hello'
   build3:
     runs-on: windows-latest
     timeout-minutes: 360
     steps:
     - name: code3
-      run: echo 'hello'
+      run: |
+         sleep 5
+         echo 'hello'
   build4:
     runs-on: windows-latest
     timeout-minutes: 360
     steps:
     - name: code4
-      run: echo 'hello'
+      run: |
+         sleep 5
+         echo 'hello'
   build5:
     runs-on: windows-latest
     timeout-minutes: 360
     steps:
     - name: code5
-      run: echo 'hello'
+      run: |
+         sleep 5
+         echo 'hello'
   build6:
     runs-on: windows-latest
     timeout-minutes: 360
     steps:
     - name: code5
-      run: echo 'hello'
+      run: |
+         sleep 5
+         echo 'hello'
   build7:
     runs-on: windows-latest
     timeout-minutes: 360
     steps:
     - name: code5
-      run: echo 'hello'
+      run: |
+         sleep 5
+         echo 'hello'
   build8:
     runs-on: windows-latest
     timeout-minutes: 360
     steps:
     - name: code5
-      run: echo 'hello'
+      run: |
+         sleep 5
+         echo 'hello'
   build9:
     runs-on: windows-latest
     timeout-minutes: 360
     steps:
     - name: code5
-      run: echo 'hello'
+      run: |
+         sleep 5
+         echo 'hello'
